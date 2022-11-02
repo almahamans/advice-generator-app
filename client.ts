@@ -1,6 +1,6 @@
-const advP = document.querySelector('.the-adv');
-const advNo = document.querySelector('.adv-no');
-const btn = document.querySelector('.btn');
+const advP:HTMLElement = document.querySelector('.the-adv') as HTMLElement;
+const advNo:HTMLElement = document.querySelector('.adv-no') as HTMLElement;
+const btn:HTMLButtonElement = document.querySelector('.btn') as HTMLButtonElement;
 
     advP.innerHTML = 'L O A D I N G...';
     btn.addEventListener('click', ()=>{
